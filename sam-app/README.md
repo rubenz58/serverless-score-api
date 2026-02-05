@@ -30,7 +30,7 @@ Client → API Gateway → Lambda → DynamoDB
 **POST `/score`**
 
 Request body:
-``json
+```json
 {
   "value": 42
 }
