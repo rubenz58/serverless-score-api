@@ -1,6 +1,6 @@
 # Serverless Score API
 
-A serverless REST API built on AWS to demonstrate cloud-native backend development using **AWS Lambda**, **API Gateway**, **DynamoDB**, and **AWS SAM**.
+A serverless REST API built on AWS to demonstrate cloud-native backend development using **AWS Lambda**, **API Gateway**, **DynamoDB**, and **AWS SAM**. 
 
 This project focuses on:
 - Infrastructure as Code (IaC)
