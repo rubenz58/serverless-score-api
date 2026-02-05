@@ -19,7 +19,6 @@ confirm_changeset = true
 resolve_s3 = true
 stack_name = "serverless-risk-api"
 s3_prefix = "serverless-risk-api"
-region = "eu-central-1"
 image_repositories = []
 
 [default.package.parameters]
