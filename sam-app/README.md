@@ -34,20 +34,25 @@ Request body:
 {
   "value": 42
 }
+```
 
 Response:
+```json
 {
   "id": "uuid-generated-id"
 }
+```
 
 ### Get a score
 **GET `/score/{id}`**
 Response:
+```json
 {
   "id": "uuid-generated-id",
   "value": 42,
   "created_at": "2026-02-05T16:14:25.123Z"
 }
+```
 
 ---
 
