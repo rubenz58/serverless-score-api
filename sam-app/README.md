@@ -83,20 +83,22 @@ sam deploy --guided
 
 ### Local Development
 Run the API locally using SAM:
-``bash
+```bash
 sam local start-api
+```
 
 Example request:
-``bash
+```bash
 curl -X POST http://127.0.0.1:3000/score \
   -H "Content-Type: application/json" \
   -d '{"value": 10}'
+```
 
 ---
 
 ## Observability
 
-``markdown
+```markdown
 ## Observability & Logging
 
 The application is observable at both the API and compute layers:
@@ -126,8 +128,9 @@ c536c1bf-a119-4859-90f1-1991df6ae9d1) HTTP Method: POST, Resource Path: /score
 
 All resources can be removed cleanly with:
 
-``bash
+```bash
 sam delete
+```
 
 ---
 
