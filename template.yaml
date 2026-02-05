@@ -65,7 +65,7 @@ Resources:
             Path: /hello
             Method: get
 
-  HealthFunction
+  HealthFunction:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: health/
